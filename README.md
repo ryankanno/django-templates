@@ -1,42 +1,37 @@
-django-templates
-================
+# django-templates
 
 ** Here be dragons **
 
 Just a small Django app to get the latest and greatest base templates.
 
 Features 
-========
+--------
 
 Supports:
 
 * [HTML5 Boilerplate](http://html5boilerplate.com)
 
 Install
-=======
+-------
 
 Clone this project somewhere your Python path can find it.
 
 Add django-templates to INSTALLED_APPS
 
-<pre>
-INSTALLED_APPS = (
-    ...
-    'django-templates',
-    ...
-)
-</pre>
+    INSTALLED_APPS = (
+        ...
+        'django-templates',
+        ...
+    )
 
 
 Usage
-=====
+-----
 
 To use django-templates, just extend the various base layouts. 
 
-<pre>
-{% extends 'html5boilerplate/base.html' %}
+    {% extends 'html5boilerplate/base.html' %}
 
-{% block header.content %}
-    Helllllo World.
-{% endblock header.content %}
-</pre>
+    {% block header.content %}
+        Helllllo World.
+    {% endblock header.content %}
