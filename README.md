@@ -5,11 +5,14 @@ django-templates
 
 Just a small Django app to get the latest and greatest base templates.
 
+Features 
+========
+
 Supports:
 
 * [HTML5 Boilerplate](http://html5boilerplate.com)
 
-INSTALL
+Install
 =======
 
 Clone this project somewhere your Python path can find it.
@@ -25,7 +28,7 @@ INSTALLED_APPS = (
 </pre>
 
 
-USAGE
+Usage
 =====
 
 To use django-templates, just extend the various base layouts. 
