@@ -9,7 +9,7 @@ Features
 
 Supports:
 
-* [HTML5 Boilerplate](http://html5boilerplate.com)
+* [HTML5 Boilerplate 3.0](http://html5boilerplate.com)
 
 Install
 -------
