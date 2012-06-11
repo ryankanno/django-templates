@@ -17,7 +17,9 @@
     {% endblock meta %}
     
     {% block css %}
-        {% block css.shared %}{% endblock css.shared %}
+        {% block css.shared %}
+        <link rel="stylesheet" href="{{ STATIC URL }}css/html5boilerplate/main.css">
+        {% endblock css.shared %}
         {% block css.custom %}{% endblock css.custom %}
     {% endblock css%}
 
