@@ -1,6 +1,6 @@
 # django-templates
 
-** Here be dragons **
+**Here be dragons**
 
 Just a small Django app to get the latest and greatest base templates.
 
